@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+    gap: 32px;
+}
+.header__list-item{
+    margin: auto 0px 0px 0px;
+    color: #181717;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 120%;
+}
