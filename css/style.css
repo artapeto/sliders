@@ -3,3 +3,4 @@
 @import url(basic/fonts.css);
 @import url(components/header.css);
 @import url(components/main.css);
+@import url(basic/_vars.css);
