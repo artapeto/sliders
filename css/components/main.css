@@ -159,3 +159,6 @@ button.btns__left.swiper-button-disabled {
     background: rgb(123, 123, 123);
     pointer-events: none;
 }
+
+    @media (max-width: 1000px) {
+        }
