@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -42,38 +43,84 @@
         </svg>
     </div>
     <div class="btns">
-        <button class="btns__left"></button>
-        <button class="btns__right"></button>
+        <button class="btns__left"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.75 12.75L0.75 6.75L6.75 0.75" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+        <button class="btns__right"><svg width="8" height="14" viewBox="0 0 8 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.75 12.75L6.75 6.75L0.75 0.75" stroke="#FAF8ED" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
     </div>
-
-    <div class="street_stone">
-        <p class="street_stone_list">01 / STREET STONE</p>
-        <p class="street_info">
-            Street concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.
-        </p>
+    <div class="swiper-container swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="street__stone">
+                    <div class="street__stone-inner">
+                        <p class="street__stone-list">01 / STREET STONE</p>
+                        <p class="street__info">
+                            Street concept digital sculpture with human-like skin. Learned a lot of quick tips and look
+                            development.
+                        </p>
+                        <p class="street__info_end">Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in
+                            Mari, Rendered
+                            using Arnold.
+                        </p>
+                        <p class="more__shots-info">More shots from this project ↗</p>
+                    </div>
+                    <img class="street__stone-img" src="images/statua.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="street__stone">
+                    <div class="street__stone-inner">
+                        <p class="street__stone-list">02 / SHADOW FIND</p>
+                        <p class="street__info">
+                            DOTA 2 MOST POPULAR HERO
+                        </p>
+                        <p class="street__info_end">Sculpted in DOTA 2, Mid line and Cary position 
+                            using ultimate.
+                        </p>
+                        <p class="more__shots-info">More shots from this project ↗</p>
+                    </div>
+                    <img class="street__stone-img" src="images/sf.gif" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="street__stone">
+                    <div class="street__stone-inner">
+                        <p class="street__stone-list">03 / KASENO TETO</p>
+                        <p class="street__info">
+                            She is one of the FATTEST idols on the planet
+                        </p>
+                        <p class="street__info_end">With her weight, she crushed the earth and destroyed the concept of time.
+                        </p>
+                        <p class="more__shots-info">More shots from this project ↗</p>
+                    </div>
+                    <img class="street__stone-img" src="images/teto.jpg" alt="">
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="street_stone-last">
-        <p class="street_info_end">Sculpted in ZBrush, Retopologized and UVs done in Maya, Textured in Mari, Rendered
-            using Arnold.
-        </p>
-    </div>
-    <div class="more_shots">
-        <p class="more_shots--info">More shots from this project ↗</p>
-    </div>
-    <div class="footer_solid"></div>
+    <div class="footer__solid"></div>
     <footer class="footer">
-        <div class="mahmet_end">
+        <div class="mahmet__end">
             <p>Mehmet Akif Karasu ⏤ 2020
             </p>
         </div>
-        <div class="novigation_footer">
-            <ul class="novigation_footer--info">
-                <li>Artstation</li>
-                <li>Linkedin</li>
-                <li>Twitter</li>
-            </ul>
-        </div>
+        <ul class="footer-list">
+            <li class="footer-list_item">Artstation</li>
+            <li class="footer-list_item">Linkedin</li>
+            <li class="footer-list_item">Twitter</li>
+        </ul>
     </footer>
 </body>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
 
 </html>
